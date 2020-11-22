@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 72px;
+    margin-bottom: 110px;
+    
+}
+.style-footer{
+    width: 34%;
+}
+.location{
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+
+}
+.text-footer{
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 20px;
+    line-height: 20px;
+
+}
+.footer-social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.footer-social-media i{
+    border: 1px solid #FFFFFF;
+    padding: 5px 5px;
+    margin-left: 5px;
+    color: #FFFFFF;
+}
+.footer-social-media i:hover{
+    color: orange;
+    transform: scale(1.2);
+    border-color: orange;
+}
+.background-footer{
+    width: 100%;
+    background-color: #3A3E64;
+}
+.background-copyright{
+    background-color: #313454;
+    width: 100%;
+    line-height: 25px;
+}
+#copyright{
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.copyright{
+    font-size: 14px;
+    color: #808080;
+}
+#kamal{
+    font-size: 14px;
+    color: white;
+}
+.heart{
+    color: red;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.container-heart{
+    display: flex;
+    flex-direction: row;
+
+}
+@media screen and (max-width:895px){
+    .container-footer{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 12px;
+    }
+    .style-footer{
+        padding-top: 60px;
+        width: 50%;
+    }
+}
+@media screen and (max-width:630px){
+    .container-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+    }
+    .style-footer{
+        padding-top: 35px;
+    }
+}

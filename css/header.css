@@ -1,0 +1,128 @@
+.section-header{
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,-5.5),rgba(0,0,0,-6.4)),
+    url('..//images/background-font.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container-bar-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 38px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(85, 85, 85);
+    
+}
+.active{
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+    opacity: 0.5;
+}
+.box{
+    font-size: 24px;
+    color: azure;
+}
+.container-active-box{
+    display: flex;
+    flex-direction: row;
+}
+.navigation-ul{
+    display: flex;
+    flex-direction: row;
+}
+.navigation-ul-li a{
+    padding-left: 59px;
+    color: azure;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
+.navigation-ul-li a:hover{
+    color: orange;
+    transition-duration: 1.3s;
+    
+}
+.header-discription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 155px;
+}
+.discription-header{
+    color: #FFFFFF;
+    font-size: 65px;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.9;
+}
+.text-header{
+    color: #FFFFFF;
+    font-size: 22px;
+    padding-top: 41px;
+    opacity: 0.9;
+    white-space: normal;
+}
+.header-button{
+    margin-top: 76px;
+    margin-bottom: 157px;
+    
+}
+.header-button-a{
+    text-decoration: none;
+    padding: 19px 46px 18px 55px;
+    background-color: #E84545;
+    font-size: 13px;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 4%;
+}
+.header-button-a:hover{
+    background-color: rgba(75, 124, 143, 0.473);
+    transition-duration: 1s;
+}
+
+
+@media screen and (max-width: 1260px){
+    .container{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 880px){
+    .navigation-ul-li a{
+        padding-left: 30px;
+    }
+    .discription-site{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 720px){
+    .container-bar-nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .navigation-ul{
+        padding-top: 20px;
+    }
+    .navigation-ul-li a{
+        padding-left: 20px;
+    }
+}
+@media screen and (max-width: 510px){
+    .navigation-ul{
+        display: none;
+    }
+    .discription-header{
+        font-size: 45px;
+    }
+    .text-header{
+        font-size: 20px;
+    }
+    .header-discription{
+        margin-top: 85px;
+    }
+}

@@ -1,0 +1,11 @@
+@import url(header.css);
+@import url(discription-site.css);
+@import url(section-photo.css);
+@import url(section-people.css);
+@import url(section-woman-coffe.css);
+@import url(section-dowloand.css);
+@import url(footer.css);
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
